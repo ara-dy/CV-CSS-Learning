@@ -1,0 +1,167 @@
+body {
+  background-color: #faf3e0;
+  margin: 0;
+  text-align: center;
+  font-family: 'Arimo', sans-serif;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.bottomcloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  top: 500px;
+}
+
+.bottom-container {
+  background-color: #cdac81;
+  margin: 0;
+  padding: 20px;
+  position: relative;
+}
+
+.footer {
+  color: white;
+  font-size: 10px;
+  padding: 20px 0;
+}
+
+.footerlink {
+  text-decoration: none;
+}
+
+.gd {
+  text-decoration: underline;
+}
+
+.GDimg1 {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.GDimg2 {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.Ill1 {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.profile {
+  width: 50%;
+  margin: auto;
+}
+
+.profilepicture {
+  width: 10%;
+  border-radius: 50%
+}
+
+.topcontainer {
+  background-color: #eff7e1;
+  position: block;
+  padding-top: 100px;
+}
+
+.topcloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  width: 50%;
+}
+
+/* float or wrapping: put a class to the <p> then use the propert clear, if you just want the title to wrap on the img*/
+a {
+  color: #b68973;
+  padding: 20px;
+  font-family: 'Arimo', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  padding-top: 50px;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #85603f;
+}
+
+/* if I use rem it means rootem, that means it will ignore the parent value of font size*/
+/* or margin: 0 (top & bottom) auto (left & right)*/
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #85603f;
+  line-height: 2;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #b68973;
+  line-height: 2;
+}
+
+hr {
+  margin-top: 50px;
+  border: none;
+  border-top: 5px dotted #85603f;
+  width: 5%;
+}
+
+/*{border-width: 0px 10px 20px 30px} it is arounf the image starting on top, clockwise}*/
+.btn {
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
+  color: #FFFFFF;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 15px;
+  background-color: #CDAC81;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.btn:hover {
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
